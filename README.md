@@ -6,10 +6,14 @@ An unofficial macOS wrapper for YouTube Music, built with SwiftUI and WKWebView.
 
 ## Features
 
-- YouTube Music in its own window.
-- Playback continues when the window is closed or minimized.
-- Track notifications with artwork and playback controls.
-- Global keyboard shortcuts.
+- **Dedicated window:** access YouTube Music without keeping a browser tab open.
+- **Background playback:** the red close button hides the window while music keeps playing. Minimizing also preserves playback; use Command + Q to quit completely.
+- **Dock restore:** click the Dock icon to bring back a hidden or minimized window.
+- **Track notifications:** a translucent panel in the top-right corner shows the current track, artist, and artwork. Track changes update the existing panel in place.
+- **Notification controls:** previous track, play / pause, next track, shuffle, and repeat, with playback and mode indicators.
+- **Hover to keep open:** notifications fade and slide in and out. Hover over the panel to keep it visible; it dismisses five seconds after the pointer leaves.
+- **Full-screen awareness:** notifications are suppressed when another app is detected as filling the screen.
+- **Global keyboard shortcuts:** control playback even while MusatPlay is in the background.
 
 | Shortcut | Action |
 | --- | --- |
